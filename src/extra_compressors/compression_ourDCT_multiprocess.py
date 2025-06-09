@@ -1,5 +1,4 @@
 from multiprocessing import Process, shared_memory
-import os
 import numpy as np
 from DCT2D import DCT2D, compute_D, IDCT2D
 from utils import cut, clip_and_round

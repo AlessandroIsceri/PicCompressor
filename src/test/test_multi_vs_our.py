@@ -1,4 +1,3 @@
-# main.py
 import numpy as np
 import time
 from multiprocessing import shared_memory
