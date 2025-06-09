@@ -19,7 +19,7 @@
 
 <pre>
 PicCompressor/
-├── compression_results/         # Sample images for testing
+├── compression_results/         # Comparison between original pics and compressed/decompressed ones.
 ├── images/                      # Grayscale images to be used as input
 ├── plots/                       # Useful plots for the project report
 └── src/
