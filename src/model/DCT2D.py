@@ -4,6 +4,10 @@ from DCT1D import DCT1D, IDCT1D, compute_D
 
 
 def DCT2D(F, D):
+    """
+    Compute the 2D Discrete Cosine Transform of the matrix F using
+    the DCT matrix D. The transform is applied first on columns and then on rows.
+    """
     n = len(F)
     C = F.copy()
     for j in range(n):
@@ -14,6 +18,10 @@ def DCT2D(F, D):
 
 
 def IDCT2D(F, D):
+    """
+    Compute the inverse 2D Discrete Cosine Transform of the matrix F using
+    the DCT matrix D. The inverse transform is applied first on columns and then on rows.
+    """
     n = len(F)
     C = F.copy()
     for j in range(n):

@@ -23,7 +23,7 @@ if __name__ == "__main__":
     
     ns = [start] + [step*i for i in range(1, n_it)]
     print(ns)
-    #[n_proc, n]
+    
     elapsed_times = np.zeros((len(n_procs) + 1, len(ns)))
     i = 0
     for n in ns:
